@@ -1,0 +1,99 @@
+.container a{
+    margin: 4rem 0;
+    text-align: right;
+    /* background-color: red; */
+}
+
+.loginForm__Container{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 4rem auto;
+    padding: 2rem;
+    /* background: red; */
+    border: 2px solid black;
+}
+.loginForm__Container h1{
+    margin: 1rem auto;
+
+}
+.loginForm__Container img{
+    width: 200px;
+    margin: 0 auto;
+}
+.loginForm__Container form{
+    align-items: center;
+    margin: 0 auto;
+    width: 60%;
+}
+.loginForm__Container .flex-row{    
+    margin: 1rem auto;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.loginForm__Container label{
+    width: min-content;
+    margin: 0 auto;
+}
+.loginForm__Container input{
+    max-width: 200px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+}
+
+.loginForm__Container button{
+    display: block;
+    margin: 0 auto;
+    border: 4px solid black;
+    padding: 0.5rem 1rem;
+    background-color: white;
+}
+.loginForm__Container button a{
+    text-decoration: none;
+    color: black;
+}
+.loginForm__Container button:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+@media screen and (max-width:950px) {
+    .loginForm__Container{
+        width: 70%;
+    }
+    .loginForm__Container .flex-row{
+        margin: 0 auto;
+    flex-direction: column;
+    }
+    .loginForm__Container form{
+        margin: 0 auto;
+        margin-top: 1rem;
+        width: 60%;
+    }
+    .loginForm__Container button{
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .loginForm__Container{
+        width: 80%;
+    }
+    .loginForm__Container .flex-row{
+        margin: 0 auto;
+    flex-direction: column;
+    }
+    .loginForm__Container form{
+        margin: 0 auto;
+        margin-top: 1rem;
+        width: 60%;
+    }
+    .loginForm__Container button{
+        margin-top: 1rem;
+    }
+    .loginForm__Container input{
+        max-width: 160px;
+    }
+
+}

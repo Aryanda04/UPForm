@@ -1,0 +1,20 @@
+@import './loginPage.css';
+@import './navbar.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins'
+}
+
+:root {
+    --secondary-color: #90E0EF;
+    --primary-color: #0077b6
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
